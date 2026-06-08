@@ -23,7 +23,7 @@ Responds with "Pong!" and displays the command latency.
 **Response:**
 ```
 @channel Pong!
-Latency: 45ms
+Latency: 1ms
 ```
 
 ### `/hat-joke`
