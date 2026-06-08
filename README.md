@@ -41,6 +41,19 @@ Why did the scarecrow win an award?
 Because he was outstanding in his field!
 ```
 
+### `/hat-flip`
+Flips a coin and returns the result (Heads or Tails).
+
+**Usage:**
+```
+/hat-flip
+```
+
+**Response:**
+```
+Coin Flip Result: Heads 🪙
+```
+
 ## Prerequisites
 
 - Node.js 18+ or higher

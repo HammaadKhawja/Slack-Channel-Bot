@@ -30,6 +30,16 @@ app.command("/hat-joke", async ({ ack, respond }) => {
   }
 });
 
+app.command("/hat-flip", async ({ ack, respond }) => {
+  await ack();
+
+  const result = Math.random() < 0.5 ? "Heads 🪙" : "Tails 🪙";
+  await respond({
+    text: `Coin Flip Result: *${result}*`,
+    response_type: "in_channel"
+  });
+});
+
 (async () => {
   await app.start();
   console.log("bot is running!");
